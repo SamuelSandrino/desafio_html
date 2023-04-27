@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Preencha seus dados aqui:</h1>
+    <br>
+    <form action="./recebendooform.html" method="get">
+        Nome <input type="text" name="Nome" placeholder="Nome e sobrenome">
+        <br>
+        Endereço <input type="text" name="Nome" placeholder="Nome da rua">
+        <br>
+        Número da residência <input type="number" range="min:0,max:100000">
+        <br>
+        Sexo <label for="sexo">Escolha</label>
+               <select name="sexo" id="sexo">
+                  <option value="vazio">Selecionar</option>
+                  <option value="masculino">Masculino</option>
+                  <option value="feminino">Feminino</option>
+                  <option value="Nao-binario">Não binário</option>
+               </select>
+        <br>
+        Telefone <input type="tel" name="Nome" placeholder="(0XX) 00000-0000">
+        <br>
+        E-mail <input type="email" name="E-mail" placeholder="fulano@gmail.com">
+        <br>
+        Data de Nascimento <input type="date" name="data-nascimento">
+        <br>
+        Estuda atualmente <br> <input type="radio" name="fav_language" value="HTML">
+                           <label for="html">Sim</label><br>
+                           <input type="radio" name="fav_language" value="HTML">
+                           <label for="html">Não</label><br>
+        <br>    
+        <button type="submit">ENVIAR</button>
+    </form>
+
+    <br>
+    <a href="index.html">
+        <button> Voltar para página incial</button>
+    </a>
+
+
+
+
+</body>
+
+</html>
